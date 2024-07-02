@@ -1,0 +1,113 @@
+.header_one{
+    height:60px;
+    display: flex;
+    align-items: center;
+    background-color:#0b121c;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    cursor: pointer;
+    
+}
+.header_one:hover{
+  border: 1.5px solid white;
+}
+.header_logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    border:none ;
+}
+.geolocation_button{
+  background-color: #0b121c;
+  border: none;
+}
+
+.header_geoLocation{
+  display: flex;
+  flex-direction: colunm;  
+  }
+
+  .location_icon{
+    color: white;
+     display: flex;  
+    margin-top: 5px; 
+    margin-right:-10px;
+   } 
+   
+  
+  .header_optionLineIconOne{
+    color: white;
+    font-size: 10px;
+    margin-left: -50px;
+  }
+
+  .header_optionLineIconTwo{
+    color: white;
+    font-size: 10px;
+    font-weight: 800; 
+  }
+
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header_searchInput{
+ width: 100%;
+ border: none;
+ height: 35px;
+ padding: 5px;
+ border-radius: 5px 0px 0px 5px;
+}
+
+.header_searchIcon{
+    background-color: rgb(228, 141, 27);
+    height: 35px !important;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+  } 
+ 
+
+  .header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-emphasis-color: white;
+  }
+
+  .header_optionLineOne{
+    font-size: 10px;
+    color: white;
+  }
+
+.header_optionLineTwo{
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+  }
+
+.headerOptionCart{
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+  
+}
+  
+.catergries{
+ height: 35px; 
+ border-radius: 10px 0 0 10px;
+}
+
